@@ -1,0 +1,95 @@
+/* Estilos Generales */
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    font-weight: bolder;
+}
+
+
+/* Colores De Texto */
+.text-blue {
+    color: blue;
+}
+
+
+/* Colores de Fondo */ 
+.bg-gray {
+    background-color: #58094b9d;
+}
+.bg-white {
+    background-color: white;
+}
+
+
+/* contenedor del formulario */
+.form-container {
+    padding: 5rem;
+    width: 18%;
+    height: 22rem;
+    border: solid 0.2rem gray;
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+/*box-shadow: <posicion en y> <posicion en x> <nivel de distoricion> <color> ; */
+    box-shadow: -11px 11px 10px #00000186;
+}
+
+
+/* Contenedor de inputs*/
+.input-container {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.input-container input {
+    border-radius: 0.4rem;
+    border: solid 0.1rem gray;
+    padding: 0.4rem;
+    margin-top: 0.2rem;
+}
+
+
+
+/* contenedor checkbox */
+
+.check-container {
+    margin-top: 0.7rem;
+    
+}
+.check-container input {
+    margin-right:0.4rem;
+}
+
+
+/*Estilos de boton*/
+.btn-container {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    padding: 0.7rem;
+    background-color: crimson (0, 255, 255, 0.671);
+    border: 0px;
+    border-radius: 0.3rem;
+    color: black;
+}
+
+
+.btn:hover {
+    background-color: chartreuse;
+    color: white;
+    
+}
+
+/* Alineacion del Formalario */
+
+.screen-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+}
